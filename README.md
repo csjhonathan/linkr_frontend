@@ -1,5 +1,5 @@
 # Linkr (Frontend) 
-<img src="./public/favicon.ico" alt="Linkr Logo" width="150" height="200">
+<img src="./public/favicon.ico" alt="Linkr Logo" width="37" height="40">
 
 ##### Neste repositório você encontrará a interface de usuário para a aplicação Linkr, uma plataforma de compartilhamento e descoberta de links. Este repositório contém o código-fonte do frontend do projeto.
 
@@ -16,10 +16,11 @@ Este projeto foi construído em colaboração com:
 ### Principais recursos:
 
 - Registro e login de usuários.
-- Página inicial com os links mais recentes e populares.
+- Página inicial com os links mais recentes.
+- Trending, onde o usuário pode ver a lista de tags(#) mais populares.
+- Feed personalizado, onde o usuário vê somente os posts dos usuários que segue.
 - Pesquisa de usuários pelo nome.
 - Adição e edição de links.
-- Feed personalizado, onde o usuário vê somente os posts dos usuários que segue.
 - Perfil de usuário com informações pessoais e links compartilhados.
 
 Para ver como ficou o projeto, basta acessar o link abaixo:
