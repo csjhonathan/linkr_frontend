@@ -1,20 +1,3 @@
-**Language:**
-<button onclick="toggleLanguage('pt')">Portuguese</button> | <button onclick="toggleLanguage('en')">English</button>
-
-
-<style>
-  #pt {
-    display: block;
-  }
-
-  #en {
-    display: none;
-  }
-</style>
-
-
-<div id="pt">
-
 # Linkr (Frontend) 
 <img src="./public/favicon.ico" alt="Linkr Logo" width="50" height="200">
 
@@ -48,51 +31,3 @@ Vale a ressalva de que o acesso pode ser um pouco lento devido ao backend estar 
 Ademais,
 
 ### OBRIGADO PELA VISITA :D
-
-</div>
-
-<div id="en">
-
-## Linkr (Frontend) - English
-
-In this repository, you will find the user interface for the Linkr application, a platform for sharing and discovering links. This repository contains the source code for the frontend of the project.
-
-### Overview
-
-Linkr is a platform that allows users to share and discover interesting links. With the Linkr frontend, users can browse links shared by other users, add their own links, and interact with the community by following other users, liking their posts, commenting, and, of course, sharing their own posts with their network.
-
-This project was built in collaboration with:
-
-- [Diego Becker](https://github.com/DiegoBeker)
-- [Felipe Iasbik](https://github.com/felipeiasbik)
-- [Filipe Tenedini](https://github.com/FilipeTenedini)
-
-### Key Features:
-
-- User registration and login.
-- Home page displaying the most recent and popular links.
-- User search by name.
-- Adding and editing links.
-- Personalized feed where the user sees posts only from the users they follow.
-- User profile with personal information and shared links.
-
-To see how the project looks, simply access the link below:
-
-[Linkr](https://linkr-frontend-gilt.vercel.app)
-
-Please note that the access may be a bit slow due to the backend being hosted on a free platform. So please be patient :)
-
-Thank you for visiting! :D
-</div>
-
-<script>
-   function toggleLanguage(language) {
-    if (language === 'pt') {
-      document.getElementById('pt').style.display = 'block';
-      document.getElementById('en').style.display = 'none';
-    } else {
-      document.getElementById('pt').style.display = 'none';
-      document.getElementById('en').style.display = 'block';
-    }
-  }
-</script>
