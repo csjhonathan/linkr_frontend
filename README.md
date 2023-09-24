@@ -42,7 +42,7 @@ Este projeto foi construído em colaboração com:
 ***Clonando o Repositório*** :
 - Para começar, você deve clonar este repositório para o seu ambiente local. Use o seguinte comando no seu terminal:
 
-`git clone https://github.com/seu-usuario/linkr-frontend.git`
+`git clone https://github.com/csjhonathan/linkr-frontend.git`
 
 ***Instalando Dependências***:
 - Navegue até o diretório do projeto e instale as dependências necessárias usando npm:
